@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class=left>
+            <div class="tarjeta">
+                <img src="./img/chip.png" alt="" width="64px" height="64px">
+                <p class="numeros" id="numeros">1234 1234 1234 1234</p>
+                <p class="nombre" id="nombre">Juan Alberto Fontana</p>
+                <p class="small">Valido hasta</p>
+                <p class="vencimiento">02/2025</p>
+            </div>
+        </section>
+        <section class=right>
+            <h2>Introducir tarjeta</h2>
+            <form action="">
+                <div>
+
+                    <label>Numeros en la tarjeta</label>
+                    <input placeholder="1234 1234  1234 1234" type="text" id="numbers" maxlength="20">
+                </div>
+                <div>
+
+                    <label>Nombre en la tarjeta</label>
+                    <input placeholder="Juan Alberto Fontana" type="text" id="name" maxlength="34">
+                </div>
+                <div>
+
+                    <label>Fecha de vencimiento</label>
+                    <input placeholder="01/2025" type="number" id="name"> 
+                </div>
+                <div>
+                    <label>CVV</label>
+                    <input placeholder="123"type="text" id="cvv" maxlength="3">
+                </div>
+
+            </form>
+            <button>Enviar</button>
+        </section>
+    </main>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
